@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="targets.css">
+        <link rel="icon" href ="The Global Goals.jpg">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+        <title>Targets</title>
+    </head>
+
+    <body>
+      <header class="header">
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
+            <a href="index.html" class="nav-logo"><img src="The Global Goals.jpg" height="50px"></a>
+            <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About SDG</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="targets.html">Targets</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="importance.html">Importance</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="challenges.html">Challenges</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="situation.html">Current Situation</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="initiatives.html">Initiatives</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="solution.html">Solution</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="achievements.html">Achievements</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact Us</a>
+                </li>
+            </ul>
+            <div class="hamburger" style="background-color: white; height: 35px; width: 37px; align-items: center; justify-content: center;">
+                <span class="bar" style="color: white;"></span>
+                <span class="bar" style="color: white;"></span>
+                <span class="bar" style="color: white;"></span>
+            </div>
+        </nav>
+</header>
+
+<script>
+    const hamburger = document.querySelector(".hamburger");
+const navMenu = document.querySelector(".navbar-nav");
+
+hamburger.addEventListener("click", mobileMenu);
+
+function mobileMenu() {
+    hamburger.classList.toggle("active");
+    navMenu.classList.toggle("active");
+}
+
+const navLink = document.querySelectorAll(".nav-link");
+
+navLink.forEach(n => n.addEventListener("click", closeMenu));
+
+function closeMenu() {
+    hamburger.classList.remove("active");
+    navMenu.classList.remove("active");
+}
+</script>
+
+       
+        <div class="h1">
+          <img src="Targets-h1.png" height="150px" style="margin-top: 70px;">
+         </div>
+        <div class="All" style="border: 5px solid black;">
+      
+        <div class="t1">
+            <img src="1.png">
+        </div>
+
+        <div class="t2">
+            <img src="2.png">
+        </div>
+
+        <div class="t3">
+            <img src="3.png">
+        </div>
+
+        <div class="t4">
+            <img src="4.png">
+        </div>
+
+        <div class="t5">
+            <img src="5.png">
+        </div>
+
+        <div class="t6">
+            <img src="6.png">
+        </div>
+
+        <div class="t7">
+            <img src="7.png">
+        </div>
+        <div class="t8">
+            <img src="8.png">
+        </div>
+    </div>
+
+    <div class="IMG">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/2pclOvZd0vE?si=lvUE1IMWExw4CK_E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="margin: 50px; margin-left: 475px; border: 5px solid black;"></iframe>
+    </div>
+
+    <footer>
+        <button type="button" class="btn btn-outline-warning" onclick="location.href='about.html'">Previous Page</button>
+        <div class="footer">
+            <p>© Copyright 2024. -----Save Water, Save Earth-----           </p>
+        </div>
+        <button type="button" class="btn btn-outline-warning" onclick="location.href='importance.html'">Next Page</button>
+
+    </footer>
+    </body>
+</html>

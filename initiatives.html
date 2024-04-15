@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="initiatives.css">
+        <link rel="icon" href ="The Global Goals.jpg">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+        <title>Initiatives</title>
+    </head>
+
+    <body>
+      <header class="header">
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
+            <a href="index.html" class="nav-logo"><img src="The Global Goals.jpg" height="50px"></a>
+            <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About SDG</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="targets.html">Targets</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="importance.html">Importance</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="challenges.html">Challenges</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="situation.html">Current Situation</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="initiatives.html">Initiatives</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="solution.html">Solution</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="achievements.html">Achievements</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact Us</a>
+                </li>
+            </ul>
+            <div class="hamburger" style="background-color: white; height: 35px; width: 37px; align-items: center; justify-content: center;">
+                <span class="bar" style="color: white;"></span>
+                <span class="bar" style="color: white;"></span>
+                <span class="bar" style="color: white;"></span>
+            </div>
+        </nav>
+</header>
+
+<script>
+    const hamburger = document.querySelector(".hamburger");
+const navMenu = document.querySelector(".navbar-nav");
+
+hamburger.addEventListener("click", mobileMenu);
+
+function mobileMenu() {
+    hamburger.classList.toggle("active");
+    navMenu.classList.toggle("active");
+}
+
+const navLink = document.querySelectorAll(".nav-link");
+
+navLink.forEach(n => n.addEventListener("click", closeMenu));
+
+function closeMenu() {
+    hamburger.classList.remove("active");
+    navMenu.classList.remove("active");
+}
+</script>
+<div class="heading" style="margin-top: 75px;">
+    <h1 style=" color: orangered; font-weight: bold; font-size: 45px;">INITIATIVES TO MEET SDG's 6th GOAL</h1> 
+</div>
+
+<div class="hed" style="display: flex; align-items: center; justify-content: center;">
+    <h1 style="color: rgb(0, 0, 255); margin-top: 50px;"><b>UN-Water</b></h1>
+</div>
+<div class="text1" style="display: flex; align-items: center; justify-content: center;">
+    <p style="font-size: 20px; width: 1000px;">United Nations Water (UN-Water) is an interagency mechanism that coordinates the efforts of United Nations entities and international organizations working on water and sanitation issues.</p>
+</div>
+<div class="video" style="display: flex; align-items: center; justify-content: center;">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/AvRkWp6EKF4?si=0bwfIYeBSj5H_zOk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="margin: 50px; border: 5px solid black;"></iframe>
+</div>
+<div class="hed" style="display: flex; align-items: center; justify-content: center;">
+    <h1 style="color: rgb(0, 0, 255);margin-top: 50px;"><b>Community-Led Total Sanitation (CLTS)</b></h1>
+</div>
+<div class="text2" style="display: flex; align-items: center; justify-content: center;">
+    <p style="margin-left: 30px; font-size: 20px; width: 1000px;">Community-led total sanitation (CLTS) is an approach used mainly in developing countries to improve sanitation and hygiene practices in a community. The approach tries to achieve behavior change in mainly rural people by a process of "triggering", leading to spontaneous and long-term abandonment of open defecation practices.</p>
+</div>
+<div class="hed" style="display: flex; align-items: center; justify-content: center;">
+    <h1 style="color: rgb(0, 0, 255);margin-top: 50px;"><b>Water-Aid</b></h1>
+</div>
+<div class="text3" style="display: flex; align-items: center; justify-content: center;">
+    <p style="margin-left: 30px; font-size: 20px; width: 1000px;">WaterAid is an international non-governmental organization, focused on water, sanitation and hygiene. It was set up in 1981 as a response to the UN International Drinking Water decade (1981–1990). As of 2018, it was operating in 34 countries.</p>
+</div>
+<div class="hed" style="display: flex; align-items: center; justify-content: center;">
+    <h1 style="color: rgb(0, 0, 255); margin-top: 50px;"><b>Sanitation & Water for All (SWA)</b></h1>
+</div>
+<div class="text4" style="display: flex; align-items: center; justify-content: center;">
+    <p style="margin-left: 30px; font-size: 20px; width: 1000px;">The Sanitation and Water for All (SWA) is a global partnership committed to achieving universal access to clean drinking water and adequate sanitation.</p>
+</div>
+<div class="hed1" style="display: flex; align-items: center; justify-content: center;">
+    <h2 style="color: rgb(0, 0, 255); margin-top: 50px;"><b>India</b></h2>
+</div>
+<div class="p1" style="display: flex; align-items: center; justify-content: center;">
+    <p style="margin: 40px; text-align: justify; font-size: 20px; width: 1000px;">The Indian government has implemented several initiatives to work towards achieving SDG 6, which focuses on ensuring the availability and sustainable management of water and sanitation for all. These initiatives, among others, reflect the Indian government’s commitment to achieving SDG 6 targets and addressing water and sanitation challenges. The government continues to implement and strengthen these programs to ensure universal access to safe water and sanitation in the country. Some key initiatives include – </p>
+</div>
+<div class="p2"  style="display: flex; align-items: center; justify-content: center;">    
+    <p style="margin: 20px; text-align: justify; font-size: 20px; width: 1000px"><b>Swachh Bharat Mission (Clean India Mission) –</b>Launched in 2014, this nationwide campaign aims to eliminate open defecation, promote cleanliness, and improve solid waste management. It focuses on constructing toilets, promoting behavior change, and ensuring access to sanitation facilities.</p>
+</div>
+<div class="p3" style="display: flex; align-items: center; justify-content: center;">  
+    <p style="margin: 20px; text-align: justify; font-size: 20px; width: 1000px"><b>Jal Jeevan Mission –</b> Launched in 2019, this mission aims to provide piped water supply to every household in rural areas of India by 2024. It focuses on water source development, infrastructure creation, capacity building, and community participation.</p>
+</div>
+<div class="p4" style="display: flex; align-items: center; justify-content: center;">
+    <p style="margin: 20px; text-align: justify; font-size: 20px; width: 1000px"><b>National Rural Drinking Water Program (NRDWP) –</b>This program focuses on providing safe drinking water to rural areas. It aims to ensure the sustainability of water supply schemes, water quality testing, and community-based management of water resources.</p>
+</div>
+<div class="p5" style="display: flex; align-items: center; justify-content: center;">    
+    <p style="margin: 20px; text-align: justify; font-size: 20px; width: 1000px"><b>Atal Bhujal Yojana (ABHY) –</b>This scheme was launched in 2018 with the objective of sustainable management of groundwater resources. It focuses on community participation, demand-side management, and strengthening institutional frameworks for groundwater management.</p>
+</div>
+<div class="p6" style="display: flex; align-items: center; justify-content: center;">    
+    <p style="margin: 20px; text-align: justify; font-size: 20px; width: 1000px"><b>National Urban Sanitation Policy (NUSP) –</b>This policy aims to ensure sanitation and waste management in urban areas. It focuses on promoting sanitation practices, constructing toilets, and implementing solid waste management systems.</p>
+</div>
+<div class="p7" style="display: flex; align-items: center; justify-content: center;">    
+    <p style="margin: 20px; text-align: justify; font-size: 20px; width: 1000px"><b>National Water Mission (NWM) –</b>Under the NWM, the government works towards sustainable water management, conservation, and reducing water demand. It focuses on enhancing water use efficiency, promoting water-saving technologies, and increasing public awareness.</p>
+</div>
+<div class="a1" style="display: flex; align-items: center; justify-content: center;">
+    <a href="https://iwaponline.com/washdev/article/11/5/693/82996/Achieving-Sustainable-Development-Goals-in-water" style="margin: 20px; text-align: justify; font-size: 20px;">Achieving Sustainable Developement Goals in Water Sanitation Sectors in India</a>
+</div>
+<div class="hed1" style="display: flex; align-items: center; justify-content: center;">
+    <h2 style="color: rgb(0, 0, 255); margin-top: 50px;"><b>Australia</b></h2>
+</div>
+<div class="text5" style="display: flex; align-items: center; justify-content: center;">    
+    <p style="margin: 20px; text-align: justify; font-size: 20px; width: 994px;"><b>Water Efficiency Labeling & Standards Scheme (WELS) –</b>Water Efficiency Labelling and Standards (WELS) is an Australian scheme that helps businesses and consumers make decisions to reduce water consumption.
+    The scheme sets out water efficiency requirements for specific fixtures, fittings and appliances.</p>
+</div>
+    <div class="hed1" style="display: flex; align-items: center; justify-content: center;">
+        <h2 style="color: rgb(0, 0, 255); margin-top: 50px;"><b>United States</b></h2>
+    </div>
+    <div class="text6" style="display: flex; align-items: center; justify-content: center;">
+        <p style="margin: 20px; text-align: justify; font-size: 20px; width: 994px"><b>Water Sense Program –</b>WaterSense is a program sponsored by the U.S. Environmental Protection Agency (EPA), designed to encourage water efficiency in the United States through the use of a special label on consumer products. The goal of this program is to protect the future of the U.S. water supply.</p>
+    </div>
+    <div class="hed1" style="display: flex; align-items: center; justify-content: center;">
+        <h2 style="color: rgb(0, 0, 255); margin-top: 50px;"><b>Singapore</b></h2>
+    </div>
+    <div class="text7" style="display: flex; align-items: center; justify-content: center;"> 
+        <p style="margin: 20px; text-align: justify; font-size: 20px; width: 994px"><b>NE Water –</b>Singapore, known for its limited water resources, has implimented the NE Water program to tackle water scarcity.</p>
+    </div>
+    <div class="hed1" style="display: flex; align-items: center; justify-content: center;">
+        <h2 style="color: rgb(0, 0, 255); margin-top: 50px; width: 100px"><b>Israel</b></h2>
+    </div>
+    <div class="text8" style="display: flex; align-items: center; justify-content: center;">
+        <p style="margin: 20px; text-align: justify; font-size: 20px; width: 994px"><b>Water Conservation & Reuse –</b>Israel is a worls leader in water conservation & has successfully implemented numerous innovative schemes.</p>
+    </div>
+    <div class="hed1" style="display: flex; align-items: center; justify-content: center;">
+        <h2 style="color: rgb(0, 0, 255); margin-top: 50px;"><b>China</b></h2>
+    </div>
+    <div class="text9" style="display: flex; align-items: center; justify-content: center;">
+        <p style="margin: 20px; text-align: justify; font-size: 20px; width: 994px"><b>South - North Water Transfer Project –</b>The South - North Water Transfer Project in China is an ambitious undertakind to address regional water scarcity.</p>
+    </div>
+    <footer>
+        <button type="button" class="btn btn-outline-warning" onclick="location.href='situation.html'">Previous Page</button>
+        <div class="footer">
+            <p>© Copyright 2024. -----Save Water, Save Earth-----           </p>
+        </div>
+        <button type="button" class="btn btn-outline-warning" onclick="location.href='solution.html'">Next Page</button>
+
+    </footer>
+</body>
+</html>

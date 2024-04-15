@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="achievements.css">
+        <link rel="icon" href ="The Global Goals.jpg">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+        <title>Achievements</title>
+    </head>
+
+    <body>
+      <header class="header">
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
+            <a href="index.html" class="nav-logo"><img src="The Global Goals.jpg" height="50px"></a>
+            <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About SDG</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="targets.html">Targets</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="importance.html">Importance</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="challenges.html">Challenges</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="situation.html">Current Situation</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="initiatives.html">Initiatives</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="solution.html">Solution</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="achievements.html">Achievements</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact Us</a>
+                </li>
+            </ul>
+            <div class="hamburger" style="background-color: white; height: 35px; width: 37px; align-items: center; justify-content: center;">
+                <span class="bar" style="color: white;"></span>
+                <span class="bar" style="color: white;"></span>
+                <span class="bar" style="color: white;"></span>
+            </div>
+        </nav>
+</header>
+
+<script>
+    const hamburger = document.querySelector(".hamburger");
+const navMenu = document.querySelector(".navbar-nav");
+
+hamburger.addEventListener("click", mobileMenu);
+
+function mobileMenu() {
+    hamburger.classList.toggle("active");
+    navMenu.classList.toggle("active");
+}
+
+const navLink = document.querySelectorAll(".nav-link");
+
+navLink.forEach(n => n.addEventListener("click", closeMenu));
+
+function closeMenu() {
+    hamburger.classList.remove("active");
+    navMenu.classList.remove("active");
+}
+</script>
+
+<div class="heading1" style=" color: orangered;;">
+    <h1><b>ACHIEVEMENTS TOWARDS SDG6</b></h1>
+</div>
+<div class="p1" style="display: flex; align-items: center; justify-content: center;">
+    <p style="margin-left: 30px; margin-top: 30px; font-size: 25px; width: 850px; ">There has been positive progress between 2015 and 2022, the propertion of the world's population with access to sefely managed drinking water increased from 60% to 73%.</p>
+</div>
+    <div class="img-2" style=" display: flex; align-items: center; justify-content: center;">
+    <img src="Initiatives45.jpeg" width="50%" style="margin: 80px; border: 5px solid black;">
+</div>
+
+<div class="heading2">
+    <h1><b>INDIA's ACHIEVEMENT TOWARDS SDG6</b></h1>
+</div>
+<div class="p" style="display: flex; align-items: center; justify-content: center;">    
+    <p style="margin-left: 30px; font-size: 25px; width: 1033px; text-align: justify;">According to NSS data, 88.7% of Indian households had enough drinking water from primary drinking water sources throughout the year, while 79.8% of households had access to toilet facilities in 2018. As per the 2019-2021 goal score for States and UTs in rural India based on SDG 6 indicator, SDG 6 achiever States and UTs (100%) are Sikkim, Himachal Pradesh, Andaman and Nicobar Islands.</p>
+</div>
+
+<div class="img-1" style=" display: flex; align-items: center; justify-content: center;">
+    <img src="Achievements.png" width="65%" style="margin: 80px; border: 5px solid black;">
+</div>
+<div class="img-2" style=" display: flex; align-items: center; justify-content: center;">
+    <img src="Achievements1.png" width="65%" style="margin: 80px; border: 5px solid black;">
+</div>
+
+<footer>
+    <button type="button" class="btn btn-outline-warning" onclick="location.href='solution.html'">Previous Page</button>
+    <div class="footer">
+        <p>© Copyright 2024. -----Save Water, Save Earth-----           </p>
+    </div>
+    <button type="button" class="btn btn-outline-warning" onclick="location.href='contact.html'">Next Page</button>
+
+
+</footer>
+
+    </body>
+</html>
